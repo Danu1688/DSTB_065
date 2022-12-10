@@ -5,14 +5,14 @@ proxies:
   port: 443
   password: bfe12676-b93f-419c-84b3-0930d80dd043
   udp: true
-  sni: chat.sociomile.com
+  sni: teams.live.com
   skip-cert-verify: true
   network: grpc
   grpc-opts:
     grpc-service-name: trojan
 - name: danuterong05b
   type: trojan
-  server: chat.sociomile.com
+  server: 172.67.199.34
   port: 443
   password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
   udp: true
