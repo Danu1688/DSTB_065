@@ -1,17 +1,28 @@
 proxies:
-- name: danugayeng05flex
+- name: danugayeng05flex1
   type: trojan
-  server: 162.159.128.7
-  port: 80
-  password: bfe12676-b93f-419c-84b3-0930d80dd043
+  server: sg.dogayengvpn.my.id
+  port: 443
+  password: 9b2127dc-1744-4425-b591-695b09b3d2be
   udp: true
-  sni: blog.linefukuoka.co.jp
+  sni: Zendesk4.grabtaxi.com
+  skip-cert-verify: true
+  network: ws
+  grpc-opts:
+    service-name: vmess
+- name: danugayeng05flex2
+  type: trojan
+  server: Zendesk4.grabtaxi.com
+  port: 80
+  password: 9b2127dc-1744-4425-b591-695b09b3d2be
+  udp: true
+  sni: sg.dogayengvpn.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /vmess
     headers:
-      Host: do-gayeng.potatonc.my.id
+      Host: sogood.linefriends.com
 - name: danugayeng05a
   type: trojan
   server: 172.67.199.34
