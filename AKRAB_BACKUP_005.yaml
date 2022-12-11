@@ -1,5 +1,18 @@
 proxies:
-- name: danugayeng04a
+- name: danugayeng05flex
+  type: trojan
+  server: Zendesk4.grabtaxi.com
+  port: 80
+  password: bfe12676-b93f-419c-84b3-0930d80dd043
+  udp: true
+  sni: do-gayeng.potatonc.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sogood.linefriends.com
+- name: danugayeng05a
   type: trojan
   server: 172.67.199.34
   port: 443
@@ -12,7 +25,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-gayeng.potatonc.my.id
-- name: danuterong04b
+- name: danuterong05b
   type: trojan
   server: 172.67.199.34
   port: 443
