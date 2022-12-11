@@ -1,16 +1,18 @@
 proxies:
-- name: danugayeng05a
+- name: danugayeng04a
   type: trojan
-  server: do-gayeng.potatonc.my.id
+  server: 172.67.199.34
   port: 443
   password: bfe12676-b93f-419c-84b3-0930d80dd043
   udp: true
-  sni: teams.live.com
+  sni: do-gayeng.potatonc.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
-- name: danuterong05b
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-gayeng.potatonc.my.id
+- name: danuterong04b
   type: trojan
   server: 172.67.199.34
   port: 443
