@@ -5,13 +5,13 @@ proxies:
   port: 80
   password: bfe12676-b93f-419c-84b3-0930d80dd043
   udp: true
-  sni: do-gayeng.potatonc.my.id
+  sni: blog.linefukuoka.co.jp
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: blog.linefukuoka.co.jp
+      Host: do-gayeng.potatonc.my.id
 - name: danugayeng05a
   type: trojan
   server: 172.67.199.34
