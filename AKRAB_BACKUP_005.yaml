@@ -1,4 +1,15 @@
 proxies:
+- name: danugayeng05flex
+  type: trojan
+  server: 162.159.128.7
+  port: 80
+  password: bfe12676-b93f-419c-84b3-0930d80dd043
+  udp: true
+  sni: line-proxy.line.me
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
 - name: danugayeng05a
   type: trojan
   server: do-gayeng.potatonc.my.id
