@@ -25,19 +25,3 @@ proxies:
     path: /terong
     headers:
       Host: b19f.vpsxc.my.id
-- name: danugayeng05flex1
-  type: vmess
-  server: 104.17.3.81
-  port: 80
-  password: 9b2127dc-1744-4425-b591-695b09b3d2be
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: false
-  servername: sg.dogayengvpn.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg.dogayengvpn.my.id
