@@ -1,7 +1,7 @@
 proxies:
 - name: danugayeng05flex1
   type: vmess
-  server: 104.17.58.20
+  server: 104.17.3.81
   port: 80
   password: 9b2127dc-1744-4425-b591-695b09b3d2be
   alterId: 0
