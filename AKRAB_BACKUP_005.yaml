@@ -51,45 +51,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacefront-cf.zoom.us
-- name: danuWs12-Identrust
-  type: trojan
-  server: crl.identrust.com
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: sg-do2.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-do2.sshpremium.my.id
-- name: danuWs12-Midtrans
-  type: trojan
-  server: midtrans.com
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: sg-do2.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-do2.sshpremium.my.id
-- name: danuWs12
-  type: trojan
-  server: 172.67.199.34
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: sg-do2.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-do2.sshpremium.my.id
 - name: danuWs01-SNI-TeamsLive
   type: trojan
   server: sg-ctn.sshpremium.my.id
