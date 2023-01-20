@@ -25,32 +25,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacefront-cf.zoom.us
-- name: danuWs12-SNIa
-  type: trojan
-  server: sg-do2.sshpremium.my.id
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: gomarketplacecontent-cf.zoom.us
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: gomarketplacecontent-cf.zoom.us
-- name: danuWs12-SNIb
-  type: trojan
-  server: sg-do2.sshpremium.my.id
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: gomarketplacefront-cf.zoom.us
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: gomarketplacefront-cf.zoom.us
 - name: danuWs01-SNI-TeamsLive
   type: trojan
   server: sg-ctn.sshpremium.my.id
@@ -105,9 +79,9 @@ proxies:
       Host: teams.live.com
 - name: danuWs05-SNI-TeamsLive
   type: trojan
-  server: sg-cth.sshpremium.my.id
+  server: sg-ctn.sshpremium.my.id
   port: 443
-  password: efb0de51-8b59-4c6b-854d-b5c8c29830ac
+  password: 5ca60014-86b6-4314-a650-4d9cebfaf3b0
   udp: true
   sni: teams.live.com
   skip-cert-verify: true
