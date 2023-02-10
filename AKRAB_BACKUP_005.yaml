@@ -1,7 +1,7 @@
 proxies:
 - name: danuWs05-Vision+
   type: trojan
-  server: 104.21.235.171
+  server: visionplus.id
   port: 443
   password: 5ca60014-86b6-4314-a650-4d9cebfaf3b0
   udp: true
